@@ -12,6 +12,9 @@
   },
   "author": "Neetika Srivastava",
   "license": "ISC",
+  "scripts": {
+    "start-hasura": "sh ../hasura/docker-run.sh"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
